@@ -42,3 +42,61 @@
 .navbar-nav .nav-item .nav-link:hover::after {
   width: 15px;
 }
+
+
+
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 20px;
+  background-color: #f9fbff;
+}
+
+.hero-content {
+  max-width: 50%;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.hero-content h1 span {
+  color: #007bff;
+}
+
+.hero-content p {
+  margin: 20px 0;
+  color: #555;
+  font-size: 1rem;
+}
+
+.hero-buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hero-buttons .btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.hero-buttons .btn-secondary {
+  background-color: transparent;
+  color: #007bff;
+  padding: 10px 20px;
+  border: 2px solid #007bff;
+  cursor: pointer;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+}
