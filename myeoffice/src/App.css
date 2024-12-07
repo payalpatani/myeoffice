@@ -1,10 +1,10 @@
-.nav-item a{
+.nav-item a {
   font-weight: bold;
   font-size: 17px;
 }
 
 .navbar {
-  background-color: #f8f9fa;
+  background-color: #e0eafd;
 }
 
 .nav-link:hover {
@@ -43,60 +43,121 @@
   width: 15px;
 }
 
-
-
-
 .hero-section {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 50px 20px;
-  background-color: #f9fbff;
+  background-color: #e0eafd;
+  height: 90vh;
 }
 
-.hero-content {
-  max-width: 50%;
-}
-
-.hero-content h1 {
-  font-size: 2.5rem;
-  font-weight: bold;
-  line-height: 1.2;
-}
-
-.hero-content h1 span {
+.hero-section h1 span {
   color: #007bff;
 }
 
-.hero-content p {
-  margin: 20px 0;
-  color: #555;
-  font-size: 1rem;
-}
-
-.hero-buttons {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.hero-buttons .btn-primary {
-  background-color: #007bff;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-}
-
-.hero-buttons .btn-secondary {
-  background-color: transparent;
-  color: #007bff;
-  padding: 10px 20px;
-  border: 2px solid #007bff;
-  cursor: pointer;
-}
-
-.hero-image img {
+.hero-section img {
   max-width: 100%;
   height: auto;
+}
+
+.text-muted {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0px auto;
+  color: #364a61;
+}
+
+.hero-section2 {
+  margin-top: -60px;
+}
+
+.hero-box {
+  background: #ffeef0;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  transform: translateY(100px);
+  transition: all 0.8s ease;
+}
+
+.hero-box.animate-up {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.hero-title {
+  font-size: 30px;
+  color: #333;
+  line-height: 1.4;
+}
+
+.hero-description {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.8;
+}
+
+.hero-btn {
+  background-color: #ff5a5f;
+  border: none;
+  font-size: 12px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.hero-btn:hover {
+  background-color: #ad2528;
+  transform: scale(1.1);
+}
+
+.img2 img{
+  height: 300px;
+}
+
+.icon img {
+  width: 60px;
+}
+
+.buutt1:hover{
+   transform: scale(1.1);
+  }
+  .buutt1 {
+  box-shadow: 0px 1px 8px rgb(151, 151, 151);
+  transition: transform 0.6s ease; 
+}
+.text-muted{
+  line-height: 30px;
+  font-size: 16px;
+}
+.colum{
+  /* padding: 10px 10px; */
+  border: 1px solid black;
+  text-align: center;
+  width: 260px;
+ 
+}
+.p1{
+  line-height: 25px;
+  color: #5c5c5c;
+  font-weight: 500;
+}
+.arrow p a{
+  text-decoration: none;
+  font-size: 20px;
+}
+.divinder1{
+    height: 2px; 
+    width: 100px;
+    background-color: blue;
+}
+.divinder2{
+  height: 2px; 
+  width: 130px;
+  background-color: blue;
+}
+.divinder3{
+  height: 2px; 
+  width: 170px;
+  background-color: blue;
+}
+.immgg img{
+  height: 350px;
 }

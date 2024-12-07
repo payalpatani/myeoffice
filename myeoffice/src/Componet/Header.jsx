@@ -17,7 +17,7 @@ export default function Navbar() {
 
     return (
         <>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light" style={{ padding: "10px 50px" }}>
+            <nav className="navbar navbar-expand-lg navbar-light " style={{ padding: "10px 50px" }}>
                 <div className="container-fluid">
                     
                     {/* Logo Section */}
