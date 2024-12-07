@@ -46,7 +46,7 @@ export default function Home() {
         <div className="row align-items-center" style={{ marginTop: "50px" }}>
           {/* Left Content */}
           <div
-            className="col-md-6 text-center text-md-start"
+            className="col-md-6 col-sm-12 text-center text-md-start"
             style={{ padding: "50px", paddingTop: "40px" }}
           >
             <h2 className="display-4 fw-bold">
@@ -71,7 +71,7 @@ export default function Home() {
           </div>
 
           {/* Right Image */}
-          <div className="col-md-6 text-center mt-2 mt-md-0">
+          <div className="col-md-6 col-sm-12 text-center mt-2 mt-md-0">
 
             <img src="https://myeoffice.in/wp-content/uploads/2024/06/kindpng_1247377-1536x880-1.webp" alt="Document Management Illustration" className="img-fluid" />
 
@@ -143,7 +143,7 @@ export default function Home() {
 
       {/* section 4 */}
 
-      <div className="container">
+   <div className="container">
 
 {/* part 1 */}
 
@@ -231,33 +231,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-
-
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-
-
-
-
-
-
-
-
-
-
+  </div>
     </div>
   );
 }

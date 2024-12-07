@@ -43,9 +43,25 @@
   width: 15px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
 .hero-section {
   background-color: #e0eafd;
   height: 90vh;
+}
+.hero-section22 {
+  background-color: #e8effd;
+  height: 85vh;
 }
 
 .hero-section h1 span {
@@ -160,4 +176,95 @@
 }
 .immgg img{
   height: 350px;
+}
+
+
+
+
+
+
+
+
+.twoparts img{
+  margin-top: 70px;
+}
+
+.boxxess1{
+  width: 95%;
+  border-radius: 6px;
+ height: auto;
+ align-items: center;
+ background: linear-gradient(to right, rgb(245, 180, 180), rgb(243, 241, 241), white);
+ padding: 30px;
+}
+
+.boxxess2{
+  width: 95%;
+  border-radius: 6px;
+ height: auto;
+ align-items: center;
+ background: linear-gradient(to right, white, rgb(243, 241, 241), rgb(211, 234, 255));
+ padding: 30px;
+}
+
+.boxxess6{
+  width: 95%;
+  border-radius: 6px;
+ height: auto;
+ align-items: center;
+ background-color: rgb(255, 240, 240);
+ padding: 30px;
+}
+
+.boxxess3{
+  width: 95%;
+  border-radius: 6px;
+ height: auto;
+ align-items: center;
+ background: linear-gradient(to right, rgb(248, 234, 246), rgb(253, 248, 248), rgb(255, 255, 255));
+ padding: 30px;
+}
+
+.button5 a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.button5{
+  background-color: #e93639;
+  border-radius: 6px;
+  border: none;
+  padding: 10px 40px;
+  transition: all 0.1s linear;
+}
+.button5:hover{
+    transform: scale(1.1);
+    background-color: #ad2528;
+}
+
+.button55{
+  background-color: #0533ff;
+  border-radius: 6px;
+  border: none;
+  padding: 10px 40px;
+  transition: all 0.1s linear;
+}
+.button55 a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.button55:hover{
+  transform: scale(1.1);
+  background-color: #383ab4;
+}
+
+.fontext{
+  text-align: justify;
+}
+
+.teexxtt ul li{
+  font-weight: 500;
 }
