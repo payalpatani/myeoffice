@@ -13,29 +13,6 @@ export default function Shadowboxs() {
         AOS.init({ duration: 1000 });
     }, []);
 
-
-
-    const scrollFunction = () => {
-        const mybutton = document.getElementById("topBtn");
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            mybutton.style.display = "block";
-        } else {
-            mybutton.style.display = "none";
-        }
-    };
-
-    // Smooth scroll to the top
-    const scrollToTop = () => {
-        window.scrollTo({ top: 0, behavior: "smooth" });
-    };
-
-    useEffect(() => {
-        window.onscroll = scrollFunction;
-        return () => {
-            window.onscroll = null;
-        };
-    }, []);
-
     return (
         <div>
             <div className="container-fluid d-flex justify-content-center align-items-center" style={{ height: "100vh" }}>
@@ -125,11 +102,11 @@ export default function Shadowboxs() {
 
             {/* part 2 */}
 
-            <div className="container-fluid d-flex justify-content-center align-items-center">
+            <div className="container-fluid d-flex justify-content-center align-items-center" style={{ height: "50vh" }}>
                 <div className="row boxxess2">
 
                     <div className="col-lg-6 col-md-6 col-sm-12" style={{ alignItems: "center" }} >
-                        <div className="row d-flex" style={{ justifyContent: "space-evenly", alignItems: "center", marginTop: "100px", }} >
+                        <div className="row d-flex" style={{ justifyContent: "space-evenly", alignItems: "center",  }} >
                             <div className="col-lg-6 col-md-6 col-sm-12 d-flex" style={{ gap: "20px", alignItems: "center" }} >
                                 <div className="imgss">
                                     <img src="https://myeoffice.in/wp-content/uploads/2023/02/3_Client-50x50.png" alt="" />
@@ -398,19 +375,6 @@ export default function Shadowboxs() {
                     </div>
                 </div>
             </div>
-
-
-{/* back to top */}
-
-            <button
-                id="topBtn"
-                onClick={scrollToTop}
-                className="btn btn-primary position-fixed bottom-0 end-0 m-4"
-                style={{ display: "none", borderRadius: "50%", width: "50px", height: "50px" }}
-            >
-                <i className="fas fa-arrow-up"></i>
-            </button>
-
         </div>
 
     );

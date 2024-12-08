@@ -5,6 +5,7 @@ import "font-awesome/css/font-awesome.min.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import 'aos/dist/aos.css';
 import AOS from 'aos';
+import { Link } from 'react-router-dom';
 
 
 
@@ -34,10 +35,10 @@ export default function Home() {
 
 
   useEffect(() => {
-    AOS.init({ duration: 1000 }); 
+    AOS.init({ duration: 1000 });
   }, []);
 
-  
+
 
   return (
     <div>
@@ -107,9 +108,10 @@ export default function Home() {
                 hello to a more efficient, streamlined workflow with our DMS
                 software.
               </p>
-              <button className="btn btn-danger px-4 py-2 mt-3 hero-btn fw-bold">
-                <i class="far fa-share-square"></i> JOIN US
-              </button>
+              <Link to="/" className="btn btn-danger px-4 py-2 mt-3 hero-btn fw-bold">
+                <i className="far fa-share-square"></i> JOIN US
+              </Link>
+
             </div>
 
             {/* Image Content */}
@@ -143,95 +145,95 @@ export default function Home() {
 
       {/* section 4 */}
 
-   <div className="container">
+      <div className="container">
 
-{/* part 1 */}
+        {/* part 1 */}
 
-      <div className="row d-flex " style={{ alignItems:"center"}}>
-          <div className="col-lg-6 col-md-6 col-sm-12" style={{textAlign:"justify"}}>
-            <div className="colum p-2 " style={{ border: "none", display: "inline-block", width: "50%",  backgroundColor: "#fff5dc" }}>
+        <div className="row d-flex " style={{ alignItems: "center" }}>
+          <div className="col-lg-6 col-md-6 col-sm-12" style={{ textAlign: "justify" }}>
+            <div className="colum p-2 " style={{ border: "none", display: "inline-block", width: "50%", backgroundColor: "#fff5dc" }}>
               <p style={{ fontSize: "15px", margin: "0", width: "100%" }}>Document Management System</p>
-            </div> <br />  <br /> 
+            </div> <br />  <br />
 
             <div className="p2">
-              <p style={{fontSize:"25px" , fontWeight:"400", lineHeight:"35px"}}>You can easily manage your <br /> business or your client’s documents</p>
-            </div> 
+              <p style={{ fontSize: "25px", fontWeight: "400", lineHeight: "35px" }}>You can easily manage your <br /> business or your client’s documents</p>
+            </div>
 
             <div className="p3">
-              <p style={{fontWeight:"400"}}>More than 1000 clients are registered in our system and more <br /> than 1 lakh documents are being managed.</p>
-            </div> <br /> 
+              <p style={{ fontWeight: "400" }}>More than 1000 clients are registered in our system and more <br /> than 1 lakh documents are being managed.</p>
+            </div> <br />
 
             <div className="arrow">
-              <p ><a href="#"> Let's Join</a>      <i class="fas fa-long-arrow-alt-right" style={{color:"blue"}}></i></p>
+              <p ><a href="#"> Let's Join</a>      <i class="fas fa-long-arrow-alt-right" style={{ color: "blue" }}></i></p>
               <div className="divinder1"></div>
             </div>
           </div>
-          <div className="col-lg-6 col-md-6 col-sm-12" style={{textAlign:"center"}}>
+          <div className="col-lg-6 col-md-6 col-sm-12" style={{ textAlign: "center" }}>
             <div className="immgg" data-aos="fade-up">
-            <img className='img-fluid' src="https://myeoffice.in/wp-content/uploads/2024/06/Data_security_05-1536x1536-1.webp" alt="" />
+              <img className='img-fluid' src="https://myeoffice.in/wp-content/uploads/2024/06/Data_security_05-1536x1536-1.webp" alt="" />
             </div>
           </div>
         </div> <br /> <br /><br />
 
 
-{/* part 2 */}
+        {/* part 2 */}
 
-        <div className="row d-flex " style={{justifyContent:"space-between"}}>
-          <div className="col-lg-6 col-md-6 col-sm-12" style={{textAlign:"justify"}}>
-            <div className="colum p-2 " style={{ border: "none", display: "inline-block", width: "50%",  backgroundColor: "#ebebfd" }}>
+        <div className="row d-flex " style={{ justifyContent: "space-between" }}>
+          <div className="col-lg-6 col-md-6 col-sm-12" style={{ textAlign: "justify" }}>
+            <div className="colum p-2 " style={{ border: "none", display: "inline-block", width: "50%", backgroundColor: "#ebebfd" }}>
               <p style={{ fontSize: "15px", margin: "0", width: "100%" }}>Document Management System</p>
-            </div> <br />  <br /> 
+            </div> <br />  <br />
 
             <div className="p2">
-              <p style={{fontSize:"22px" , fontWeight:"400", lineHeight:"50px"}}><strong> <i>Boost your work</i> </strong> <span style={{color:"blue"}} > <i>experience! </i> </span> <br />
-              Access documents anytime, <br /> anywhere, and from any device.</p>
-            </div> 
+              <p style={{ fontSize: "22px", fontWeight: "400", lineHeight: "50px" }}><strong> <i>Boost your work</i> </strong> <span style={{ color: "blue" }} > <i>experience! </i> </span> <br />
+                Access documents anytime, <br /> anywhere, and from any device.</p>
+            </div>
 
             <div className="p3">
-              <p style={{fontWeight:"400"}}>You will get the best experience from our website. But 90% of <br /> people use applications to access documents quickly.</p>
-            </div> <br /> 
+              <p style={{ fontWeight: "400" }}>You will get the best experience from our website. But 90% of <br /> people use applications to access documents quickly.</p>
+            </div> <br />
 
             <div className="arrow">
-              <p ><a href="#"> Let's Boots</a>      <i class="fas fa-long-arrow-alt-right" style={{color:"blue"}}></i></p>
+              <p ><a href="#"> Let's Boots</a>      <i class="fas fa-long-arrow-alt-right" style={{ color: "blue" }}></i></p>
               <div className="divinder2"></div>
             </div>
           </div>
-          <div className="col-lg-6 col-md-6 col-sm-12" style={{textAlign:"center"}}>
+          <div className="col-lg-6 col-md-6 col-sm-12" style={{ textAlign: "center" }}>
             <div className="immgg" data-aos="fade-up">
-            <img className='img-fluid' src="https://myeoffice.in/wp-content/uploads/2024/06/Work_7-1536x1536-1.webp" alt="" />
+              <img className='img-fluid' src="https://myeoffice.in/wp-content/uploads/2024/06/Work_7-1536x1536-1.webp" alt="" />
             </div>
           </div>
         </div>  <br /> <br /> <br /><br />
 
-{/* part 3 */}
+        {/* part 3 */}
 
-        <div className="row d-flex " style={{justifyContent:"space-between"}}>
-          <div className="col-lg-6 col-md-6 col-sm-12" style={{textAlign:"justify"}}>
-            <div className="colum p-2 " style={{ border: "none", display: "inline-block", width: "50%",  backgroundColor: "#f8ebfd" }}>
+        <div className="row d-flex " style={{ justifyContent: "space-between" }}>
+          <div className="col-lg-6 col-md-6 col-sm-12" style={{ textAlign: "justify" }}>
+            <div className="colum p-2 " style={{ border: "none", display: "inline-block", width: "50%", backgroundColor: "#f8ebfd" }}>
               <p style={{ fontSize: "15px", margin: "0", width: "100%" }}>Document Management System</p>
-            </div> <br />  <br /> 
+            </div> <br />  <br />
 
             <div className="p2">
-              <p style={{fontSize:"25px" , fontWeight:"500", lineHeight:"40px"}}><span style={{color:"#0f6fde", fontWeight:"bold"}}> <i>It’s Really Possible! </i> </span> <br />
-              Categorize your documents very <br /> quickly and save your future time</p>
-            </div> 
+              <p style={{ fontSize: "25px", fontWeight: "500", lineHeight: "40px" }}><span style={{ color: "#0f6fde", fontWeight: "bold" }}> <i>It’s Really Possible! </i> </span> <br />
+                Categorize your documents very <br /> quickly and save your future time</p>
+            </div>
 
             <div className="p3">
-              <p style={{fontWeight:"400"}}>Move any document into a Group and Sub-group according to <br /> its category.</p>
-            </div> <br /> 
+              <p style={{ fontWeight: "400" }}>Move any document into a Group and Sub-group according to <br /> its category.</p>
+            </div> <br />
 
             <div className="arrow">
-              <p ><a href="#"> Let's Categorize</a>      <i class="fas fa-long-arrow-alt-right" style={{color:"blue"}}></i></p>
+              <p ><a href="#"> Let's Categorize</a>      <i class="fas fa-long-arrow-alt-right" style={{ color: "blue" }}></i></p>
               <div className="divinder3"></div>
             </div>
           </div>
-          <div className="col-lg-6 col-md-6 col-sm-12" style={{textAlign:"center"}}>
+          <div className="col-lg-6 col-md-6 col-sm-12" style={{ textAlign: "center" }}>
             <div className="immgg" data-aos="fade-up">
-            <img className='img-fluid' src="https://myeoffice.in/wp-content/uploads/2024/06/4788363-1536x1536-1.webp" alt="" />
+              <img className='img-fluid' src="https://myeoffice.in/wp-content/uploads/2024/06/4788363-1536x1536-1.webp" alt="" />
             </div>
           </div>
         </div>
-  </div>
+      </div>
     </div>
   );
 }
